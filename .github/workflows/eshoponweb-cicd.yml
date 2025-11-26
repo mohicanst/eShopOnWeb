@@ -8,11 +8,11 @@ on:
 
 # Environment variables used across jobs
 env:
-  RESOURCE_GROUP: 'rg-eshoponweb-jt888'
-  LOCATION: 'centralus'
+  RESOURCE_GROUP: rg-eshoponweb-jt888
+  LOCATION: centralus
   TEMPLATE_FILE: ${{ github.workspace }}/infra/webapp.bicep
-  SUBSCRIPTION_ID: 'bb63369e-b82e-46bc-8e7e-1eb24f71b128'
-  WEBAPP_NAME: 'eshoponweb-jt888'
+  SUBSCRIPTION_ID: bb63369e-b82e-46bc-8e7e-1eb24f71b128
+  WEBAPP_NAME: eshoponweb-jt88886
 
 jobs:
   # Build and test job
